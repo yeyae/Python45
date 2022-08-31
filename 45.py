@@ -18,4 +18,8 @@ a = [1,2,3]
 #한 줄에 결과값 출력하기
 for i in range(10):
     print(i, end= ' ')
+
+#파일생성하는 방법
+f = open("새파일.txt",'w')
+f.close()
     
